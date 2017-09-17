@@ -1,0 +1,65 @@
+@import "https://fonts.googleapis.com/css?family=Berkshire+Swash";
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fcfff0;
+  font-family: sans-serif;
+  font-weight: 100; }
+
+h1 {
+  width: 100%;
+  height: 50px;
+  line-height: 45px;
+  background-color: #1e1e1e;
+  color: #9fa6ad;
+  font-family: 'Berkshire Swash', sans-serif; }
+
+.game-of-life {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center; }
+
+.board {
+  padding-right: 20px;
+  flex-shrink: 0; }
+
+.control {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column; }
+  .control label {
+    line-height: 120%; }
+  .control label:nth-child(2) {
+    font-weight: bold;
+    margin-bottom: 30px; }
+
+.cell {
+  width: 10px;
+  height: 10px;
+  float: left;
+  border-radius: 50%; }
+
+.alive {
+  background-color: #375760; }
+
+.dead {
+  background-color: #c8d6d3; }
+
+button {
+  height: 25px;
+  margin: 5px 0;
+  border: 1px solid #999999;
+  border-radius: 5px; }
+  button:hover {
+    background-color: #c8d6d3; }
+  button:disabled {
+    cursor: not-allowed;
+    background-color: #ffffff; }
+
+#credits {
+  margin-top: 30px;
+  font-size: 10px;
+  color: #375760; }
+
+/*# sourceMappingURL=style.css.map */
